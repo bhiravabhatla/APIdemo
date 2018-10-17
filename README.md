@@ -1,8 +1,9 @@
 ## Creating sample producer and consumer using Spring boot
 
 * This repo has sample consumer and producer services.
-* /account end point acts as consumer. /user end point acts are producer.
-* Both of them are exposed at same end point (6060)
+* Account service acts as consumer. User service acts as producer.
+* Both of them are exposed at same port with different base URI (/account for account and /user for user) (6060)
+* Account service uses /user end point to create an account.
 * Clone this repo.
 * Do a maven build.
 
