@@ -8,5 +8,5 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest(classes = DemoApplication.class)
 @RunWith(SpringRunner.class)
 @AutoConfigureMockMvc
-public class BaseTest {
+public class BaseTestClass {
 }

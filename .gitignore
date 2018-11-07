@@ -10,6 +10,7 @@
 .springBeans
 .sts4-cache
 producer/target/
+consumer/target/
 
 ### IntelliJ IDEA ###
 .idea
