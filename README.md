@@ -9,9 +9,13 @@
 
     ```mvn clean install```
 
-* To start the application run:
+* To start the consumer application run:
 
-    ``` java -jar target/demo-0.0.1-SNAPSHOT.jar ```
+    ``` java -jar consumer/target/consumer-0.0.1-SNAPSHOT.jar ```
+    
+* To start the producer application run:
+
+    ``` java -jar producer/target/producer-0.0.1-SNAPSHOT.jar ```
 
 * Import below curls in postman to interact with the application.
 
