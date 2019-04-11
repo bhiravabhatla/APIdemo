@@ -16,7 +16,7 @@ import java.util.UUID;
 public class AccountService {
 
     private AccountRepository accountRepository;
-    public static final String URL ="http://localhost:6050/user/create";
+    public static final String URL ="producer:6050/user/create";
 
     public AccountService(AccountRepository accountRepository) {
         this.accountRepository = accountRepository;
