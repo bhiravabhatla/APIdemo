@@ -1,4 +1,4 @@
-# syntax=docker/dockerfile:experimental
+# syntax=docker/dockerfile:1.0.0-experimental
 FROM maven:3.6.0-slim as builder
 WORKDIR /tmp
 COPY . .
